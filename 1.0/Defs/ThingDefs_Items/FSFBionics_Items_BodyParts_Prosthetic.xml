@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Prosthetic Body Parts -->
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFProstheticEye</defName>
+		<label>prosthetic eye</label>
+		<description>A eye prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>0.3</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFProstheticHand</defName>
+		<label>prosthetic hand</label>
+		<description>A hand prosthesis. While it lacks a neural interface, its complex arrangement of internal joints allows it to mimic natural movement quite convincingly. Still, it is inferior to a real hand.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>10</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFProstheticSpine</defName>
+		<label>prosthetic spine</label>
+		<description>A spine prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>30</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFSimpleProstheticLung</defName>
+		<label>prosthetic lung</label>
+		<description>A lung prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>25</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFSimpleProstheticKidney</defName>
+		<label>prosthetic kidney</label>
+		<description>A kidney prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFSimpleProstheticLiver</defName>
+		<label>prosthetic liver</label>
+		<description>A liver prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFSimpleProstheticStomach</defName>
+		<label>prosthetic stomach</label>
+		<description>A stomach prosthesis. It's not as efficient as the real thing but it's better than the nothing.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

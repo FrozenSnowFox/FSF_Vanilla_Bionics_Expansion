@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Prosthetic Color Label -->
+
+	<HediffDef Name="FSFAddedBodyPartProsthetic" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		<isBad>false</isBad>
+		<priceImpact>true</priceImpact>
+	</HediffDef>
+	
+	<!-- Vanilla Prosthetic Body Parts -->
+
+  <!-- Prosthetic leg -->
+
+  <HediffDef ParentName="FSFAddedBodyPartProsthetic">
+    <defName>SimpleProstheticLeg</defName>
+    <label>prosthetic leg</label>
+    <labelNoun>a prosthetic leg</labelNoun>
+    <description>An installed prosthetic leg.</description>
+    <descriptionHyperlinks><ThingDef>SimpleProstheticLeg</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SimpleProstheticLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.85</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!-- Prosthetic arm -->
+
+  <HediffDef ParentName="FSFAddedBodyPartProsthetic">
+    <defName>SimpleProstheticArm</defName>
+    <label>prosthetic arm</label>
+    <labelNoun>a prosthetic arm</labelNoun>
+    <description>An installed prosthetic arm.</description>
+    <descriptionHyperlinks><ThingDef>SimpleProstheticArm</ThingDef></descriptionHyperlinks>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8.2</power> <!-- Same as natural fist -->
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>SimpleProstheticArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!-- Prosthetic heart -->
+
+  <HediffDef ParentName="FSFAddedBodyPartProsthetic">
+    <defName>SimpleProstheticHeart</defName>
+    <label>prosthetic heart</label>
+    <labelNoun>a prosthetic heart</labelNoun>
+    <description>An installed prosthetic heart.</description>
+    <descriptionHyperlinks><ThingDef>SimpleProstheticHeart</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>SimpleProstheticHeart</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <!-- Cochlear implant -->
+
+  <HediffDef ParentName="FSFAddedBodyPartProsthetic">
+    <defName>CochlearImplant</defName>
+    <label>cochlear implant</label>
+    <labelNoun>a cochlear implant</labelNoun>
+    <description>An installed cochlear implant.</description>
+    <descriptionHyperlinks><ThingDef>CochlearImplant</ThingDef></descriptionHyperlinks>
+    <spawnThingOnRemoved>CochlearImplant</spawnThingOnRemoved>
+    <addedPartProps>
+      <partEfficiency>0.65</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

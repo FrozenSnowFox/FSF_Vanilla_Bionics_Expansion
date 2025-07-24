@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <HediffDef Name="FSFAddedBodyPartArchotech" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+	<defaultLabelColor>(82,190,128)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+
+	<!-- Vanilla Archotech Body Parts -->
+
+  <HediffDef ParentName="FSFAddedBodyPartArchotech">
+    <defName>ArchotechEye</defName>
+    <label>archotech eye</label>
+    <labelNoun>an archotech eye</labelNoun>
+    <spawnThingOnRemoved>ArchotechEye</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="FSFAddedBodyPartArchotech">
+    <defName>ArchotechArm</defName>
+    <label>archotech arm</label>
+    <labelNoun>an archotech arm</labelNoun>
+    <comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>14</power>
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+    <spawnThingOnRemoved>ArchotechArm</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+  <HediffDef ParentName="FSFAddedBodyPartArchotech">
+    <defName>ArchotechLeg</defName>
+    <label>archotech leg</label>
+    <labelNoun>an archotech leg</labelNoun>
+    <spawnThingOnRemoved>ArchotechLeg</spawnThingOnRemoved>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.50</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+	<!-- Archotech Body Parts -->
+
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechEar</defName>
+		<label>archotech ear</label>
+		<labelNoun>a archotech ear</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<labelNoun>a archotech jaw</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>10.2</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FSFArchotechJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechSpine</defName>
+		<label>archotech spine</label>
+		<labelNoun>a archotech spine</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechHeart</defName>
+		<label>archotech heart</label>
+		<labelNoun>a archotech heart</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechLung</defName>
+		<label>archotech lung</label>
+		<labelNoun>a archotech lung</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<labelNoun>a archotech kidney</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechLiver</defName>
+		<label>archotech liver</label>
+		<labelNoun>a archotech liver</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<labelNoun>a archotech stomach</labelNoun>
+		<spawnThingOnRemoved>FSFArchotechStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.5</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

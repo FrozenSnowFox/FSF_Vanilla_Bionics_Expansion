@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Vanilla Wood/Medieval Color Label -->
+
+  <HediffDef Name="FSFAddedBodyPartWood" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+	<defaultLabelColor>(229,152,102)</defaultLabelColor>
+    <isBad>false</isBad>
+	<priceImpact>true</priceImpact>
+  </HediffDef>
+
+  <!-- Wooden peg leg -->
+
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>PegLeg</defName>
+    <label>peg leg</label>
+    <labelNoun>a peg leg</labelNoun>
+    <description>An installed peg leg.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.60</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- Wooden hand -->
+
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>WoodenHand</defName>
+    <label>wooden hand</label>
+    <labelNoun>a wooden hand</labelNoun>
+    <description>An installed wooden hand.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.60</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- Wooden foot -->
+
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>WoodenFoot</defName>
+    <label>wooden foot</label>
+    <labelNoun>a wooden foot</labelNoun>
+    <description>An installed wooden foot.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+  <!-- Denture -->
+  <!-- Only takes medicine, not a wooden part -->
+
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>Denture</defName>
+    <label>denture</label>
+    <labelNoun>a denture</labelNoun>
+    <description>An installed denture.</description>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

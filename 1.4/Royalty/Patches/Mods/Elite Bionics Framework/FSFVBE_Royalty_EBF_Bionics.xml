@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<!-- Vanilla Bionics -->
+	
+	<Operation Class="PatchOperationFindMod">
+		
+    	<mods>
+        	<li>Elite Bionics Framework</li>
+    	</mods>
+		
+    	<match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFBionicDrillArm"]/comps</xpath>
+				<value>
+        			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            			<scaleAdjustment>0.25</scaleAdjustment>
+        			</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFBionicFieldArm"]/comps</xpath>
+				<value>
+        			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            			<scaleAdjustment>0.25</scaleAdjustment>
+        			</li>
+				</value>
+			</li>
+			
+        </operations>
+    	</match>
+		
+	</Operation>
+	
+</Patch>

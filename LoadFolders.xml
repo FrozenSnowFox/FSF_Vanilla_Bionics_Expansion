@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<loadFolders>
+	
+	<v1.0>	
+
+		<!-- Vanilla -->
+		
+		<li>/</li>
+		<li>1.0</li>
+		
+	</v1.0>
+	
+	<v1.1>	
+
+		<!-- Vanilla -->
+		
+		<li>/</li>
+		<li>1.1</li>
+		
+	</v1.1>
+	
+	<v1.2>	
+
+		<!-- Vanilla -->
+		
+		<li>/</li>
+		<li>1.2/Core</li>
+		
+		<!-- DLC Royalty -->
+		
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.2/Royalty</li>
+		
+	</v1.2>
+	
+	<v1.3>	
+
+		<!-- Vanilla -->
+		
+		<li>/</li>
+		<li>1.3/Core</li>
+		
+		<!-- DLC Royalty -->
+		
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.3/Royalty</li>
+		
+	</v1.3>
+	
+	<v1.4>	
+
+		<!-- Vanilla -->
+		
+		<li>/</li>
+		<li>1.4/Core</li>
+		
+		<!-- DLC Royalty -->
+		
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.4/Royalty</li>
+		
+		
+		
+		<!-- Mods -->
+		
+		<!-- XML Extensions -->
+		<li IfModActive="imranfish.xmlextensions">1.4/Mods/XML Extensions</li>
+		
+	</v1.4>
+	
+	<v1.5>	
+
+		<!-- Ludeon -->
+		
+		<!-- Core -->
+		
+		<li>/</li>
+		<li>1.5/Ludeon/Core</li>
+		
+		<!-- DLC Royalty -->		
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.5/Ludeon/Royalty</li>
+		
+		<!-- DLC Biotech -->		
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Ludeon/Biotech</li>
+		
+		<!-- DLC Anomaly -->
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.5/Ludeon/Anomaly</li>
+		
+		
+		
+		<!-- Frameworks -->
+		
+		<!-- XML Extensions -->
+		<li IfModActive="imranfish.xmlextensions">1.5/Frameworks/XML Extensions</li>
+		
+		
+		
+		<!-- Mods -->
+		
+		<!-- Bionic Icons -->		
+		<li IfModActive="automatic.bionicicons">1.5/Mods/Bionic Icons</li>
+		
+		<!-- Vanilla Skills Expanded -->		
+		<li IfModActive="vanillaexpanded.skills">1.5/Mods/Vanilla Skills Expanded</li>
+		
+	</v1.5>
+	
+	<v1.6>	
+
+		<!-- Ludeon -->
+		
+		<!-- Core -->
+		
+		<li>/</li>
+		<li>1.6/Ludeon/Core</li>
+		
+		<!-- DLC Royalty -->		
+		<li IfModActive="Ludeon.RimWorld.Royalty">1.6/Ludeon/Royalty</li>
+		
+		<!-- DLC Biotech -->		
+		<li IfModActive="Ludeon.RimWorld.Biotech">1.6/Ludeon/Biotech</li>
+		
+		<!-- DLC Anomaly -->
+		<li IfModActive="Ludeon.RimWorld.Anomaly">1.6/Ludeon/Anomaly</li>
+		
+		
+		
+		<!-- Frameworks -->
+		
+		<!-- XML Extensions -->
+		<li IfModActive="imranfish.xmlextensions">1.6/Frameworks/XML Extensions</li>
+		
+		
+		
+		<!-- Mods -->
+		
+		<!-- Bionic Icons -->		
+		<li IfModActive="automatic.bionicicons">1.6/Mods/Bionic Icons</li>
+		
+		<!-- Vanilla Skills Expanded -->		
+		<li IfModActive="vanillaexpanded.skills">1.6/Mods/Vanilla Skills Expanded</li>
+		
+	</v1.6>
+	
+</loadFolders>

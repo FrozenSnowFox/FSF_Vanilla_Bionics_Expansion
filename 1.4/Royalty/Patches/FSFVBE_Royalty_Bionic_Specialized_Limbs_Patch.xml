@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+  	<!-- Patch Research Requirements -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[defName = "FSFBionicPowerArm"]</xpath>
+				<value>
+					<recipeMaker>
+						<researchPrerequisite>SpecializedLimbs</researchPrerequisite>
+					</recipeMaker>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

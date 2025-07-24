@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Bionic Body Parts -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicPowerArm</defName>
+		<label>bionic power arm</label>
+		<labelNoun>a bionic power arm</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>claw</label>
+						<capacities>
+							<li>Scratch</li>
+						</capacities>
+						<power>18</power>
+						<cooldownTime>2</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FSFBionicPowerArm</spawnThingOnRemoved>
+		<addedPartProps>
+			<isGoodWeapon>true</isGoodWeapon>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicJaw</defName>
+		<label>bionic jaw</label>
+		<labelNoun>a bionic jaw</labelNoun>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.2</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FSFBionicJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicLung</defName>
+		<label>bionic lung</label>
+		<labelNoun>a bionic lung</labelNoun>
+		<spawnThingOnRemoved>FSFBionicLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicKidney</defName>
+		<label>bionic kidney</label>
+		<labelNoun>a bionic kidney</labelNoun>
+		<spawnThingOnRemoved>FSFBionicKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicLiver</defName>
+		<label>bionic liver</label>
+		<labelNoun>a bionic liver</labelNoun>
+		<spawnThingOnRemoved>FSFBionicLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

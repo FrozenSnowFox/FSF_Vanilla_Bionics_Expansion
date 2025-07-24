@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Archotech Body Parts -->
+
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechEar</defName>
+		<label>archotech ear</label>
+		<description>An advanced artificial ear built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<description>An advanced artificial jaw built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>1.5</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechSpine</defName>
+		<label>archotech spine</label>
+		<description>An advanced artificial spine built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechHeart</defName>
+		<label>archotech heart</label>
+		<description>An advanced artificial heart built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechLung</defName>
+		<label>archotech lung</label>
+		<description>An advanced artificial lung built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<description>An advanced artificial kidney built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechLiver</defName>
+		<label>archotech liver</label>
+		<description>An advanced artificial liver built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<description>An advanced artificial stomach built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<techLevel>Archotech</techLevel>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+
+</Defs>

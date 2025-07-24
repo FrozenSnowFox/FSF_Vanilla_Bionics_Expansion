@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Archotech Ear -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechEar</defName>
+		<label>archotech ear</label>
+		<labelNoun>a archotech ear</labelNoun>
+		<description>An installed archotech ear.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechEar</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechEar</defName>
+		<label>archotech ear</label>
+		<description>An advanced artificial ear built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechEar</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>0.1</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechEar</defName>
+		<label>install archotech ear</label>
+		<description>Install an archotech ear.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechEar</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech ear.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Ear</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechEar</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Jaw -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<labelNoun>a archotech jaw</labelNoun>
+		<description>An installed archotech jaw.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechJaw</ThingDef></descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>10.2</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FSFArchotechJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechJaw</defName>
+		<label>archotech jaw</label>
+		<description>An advanced artificial jaw built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechJaw</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>1.5</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechJaw</defName>
+		<label>install archotech jaw</label>
+		<description>Install an archotech jaw.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechJaw</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechJaw</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Spine -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechSpine</defName>
+		<label>archotech spine</label>
+		<labelNoun>a archotech spine</labelNoun>
+		<description>An installed archotech spine.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechSpine</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechSpine</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechSpine</defName>
+		<label>archotech spine</label>
+		<description>An advanced artificial spine built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechSpine</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechSpine</defName>
+		<label>install archotech spine</label>
+		<description>Install an archotech spine.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechSpine</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech spine.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechSpine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechSpine</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Spine</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechSpine</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Heart -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechHeart</defName>
+		<label>archotech heart</label>
+		<labelNoun>a archotech heart</labelNoun>
+		<description>An installed archotech heart.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechHeart</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechHeart</defName>
+		<label>archotech heart</label>
+		<description>An advanced artificial heart built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechHeart</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechHeart</defName>
+		<label>install archotech heart</label>
+		<description>Install an archotech heart.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechHeart</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech heart.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Heart</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechHeart</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Lung -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechLung</defName>
+		<label>archotech lung</label>
+		<labelNoun>a archotech lung</labelNoun>
+		<description>An installed archotech lung.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechLung</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechLung</defName>
+		<label>archotech lung</label>
+		<description>An advanced artificial lung built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechLung</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechLung</defName>
+		<label>install archotech lung</label>
+		<description>Install an archotech lung.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechLung</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechLung</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Kidney -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<labelNoun>a archotech kidney</labelNoun>
+		<description>An installed archotech kidney.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechKidney</defName>
+		<label>archotech kidney</label>
+		<description>An advanced artificial kidney built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechKidney</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechKidney</defName>
+		<label>install archotech kidney</label>
+		<description>Install an archotech kidney.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechKidney</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechKidney</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Liver -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechLiver</defName>
+		<label>archotech liver</label>
+		<labelNoun>a archotech liver</labelNoun>
+		<description>An installed archotech liver.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechLiver</defName>
+		<label>archotech liver</label>
+		<description>An advanced artificial liver built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechLiver</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechLiver</defName>
+		<label>install archotech liver</label>
+		<description>Install an archotech liver.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechLiver</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechLiver</addsHediff>
+	</RecipeDef>
+	
+	<!-- Archotech Stomach -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartArchotech">
+		<defName>FSFArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<labelNoun>a archotech stomach</labelNoun>
+		<description>An installed archotech stomach.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechStomach</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArchotechStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.50</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartArchotechBase">
+		<defName>FSFArchotechStomach</defName>
+		<label>archotech stomach</label>
+		<description>An advanced artificial stomach built by an archotech. It looks and feels like natural flesh, but it's harder to damage than plasteel. Even if it is harmed, it repairs itself over time. Its internal workings are a mystery to all human minds.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArchotechStomach</RecipeDef></descriptionHyperlinks>
+		<statBases>
+			<MarketValue>2800</MarketValue>
+			<Mass>2</Mass>
+		</statBases>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFArchotechStomach</defName>
+		<label>install archotech stomach</label>
+		<description>Install an archotech stomach.</description>
+		<descriptionHyperlinks><ThingDef>FSFArchotechStomach</ThingDef></descriptionHyperlinks>
+		<jobString>Installing archotech stomach.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArchotechStomach</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArchotechStomach</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Stomach</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArchotechStomach</addsHediff>
+	</RecipeDef>
+
+</Defs>

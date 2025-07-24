@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+
+	<name>[FSF] Vanilla Bionics Expansion</name>
+	<author>FrozenSnowFox</author>
+	<packageId>FrozenSnowFox.VanillaBionicsExpansion</packageId>
+	<description>Fills out the vanilla bionics to include numerous omitted body parts</description>
+	<modIconPath IgnoreIfNoMatchingField="True">ModIcon/FSFModIcon</modIconPath>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+		<li>1.2</li>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<loadBefore>
+		<li>automatic.bionicicons</li>
+		<li>com.prostheticnomissingbodyparts.rimworld.mod</li>
+		<li>MSE2.Core</li>
+	</loadBefore>
+	<loadAfter>
+		<li>bambaryla.bor</li>
+		<li>imranfish.xmlextensions</li>
+		<li>kentington.saveourship2</li>
+		<li>Neronix17.Asimov</li>
+		<li>Neronix17.OuterRim.DroidDepot</li>
+		<li>RedMattis.BigSmall.Core</li>
+		<li>twistedpacifist.ReasonableComponents</li>
+		<li>vanillaexpanded.skills</li>
+		<li>V1024.EBFramework</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>FrozenSnowFox.AdvancedBionicsExpansion</li>
+	</incompatibleWith>
+	
+</ModMetaData>

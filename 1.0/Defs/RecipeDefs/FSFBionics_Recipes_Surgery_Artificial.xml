@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Artificial Body Parts -->
+
+	<RecipeDef ParentName="FSFBionicSurgery">
+		<defName>InstallFSFArtificialNose</defName>
+		<label>install artificial nose</label>
+		<description>Install a artificial nose.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing artificial nose.</jobString>
+		<workAmount>1500</workAmount>
+		<surgerySuccessChanceFactor>1.30</surgerySuccessChanceFactor>
+		<skillRequirements>
+			<Medicine>3</Medicine>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArtificialNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>FSFArtificialNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArtificialNose</addsHediff>
+	</RecipeDef>
+
+</Defs>

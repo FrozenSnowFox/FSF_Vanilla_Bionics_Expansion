@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Artificial Body Parts -->
+	
+	<HediffDef ParentName="FSFAddedBodyPartProsthetic">
+		<defName>FSFArtificialNose</defName>
+		<label>artificial nose</label>
+		<labelNoun>a artificial nose</labelNoun>
+		<description>An installed prosthetic nose.</description>
+		<descriptionHyperlinks><ThingDef>FSFArtificialNose</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFArtificialNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartProstheticMakeableBase">
+		<defName>FSFArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>An artificial nose that works as a suitable replacement for an organic one.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFArtificialNose</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartProstheticBase">
+		<defName>InstallFSFArtificialNose</defName>
+		<label>install artificial nose</label>
+		<description>Install a artificial nose.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FSFArtificialNose</ThingDef>
+			<HediffDef>FSFArtificialNose</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing artificial nose.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFArtificialNose</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFArtificialNose</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Nose</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFArtificialNose</addsHediff>
+	</RecipeDef>
+
+</Defs>

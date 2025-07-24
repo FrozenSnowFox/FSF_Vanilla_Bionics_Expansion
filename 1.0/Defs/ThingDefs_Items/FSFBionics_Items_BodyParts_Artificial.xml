@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Artificial Body Parts -->
+
+	<ThingDef ParentName="BodyPartProstheticBase">
+		<defName>FSFArtificialNose</defName>
+		<label>artificial nose</label>
+		<description>An artificial nose that works as a suitable replacement for an organic one.</description>
+		<techLevel>Industrial</techLevel>
+		<costList>
+			<Steel>20</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>11000</WorkToMake>
+			<Mass>0.05</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

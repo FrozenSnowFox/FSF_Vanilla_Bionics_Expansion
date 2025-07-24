@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Artificial Body Parts -->
+
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFArtificialNose</defName>
+		<label>artificial nose</label>
+		<labelNoun>a artificial nose</labelNoun>
+		<defaultLabelColor>(102,178,255)</defaultLabelColor>
+		<spawnThingOnRemoved>FSFArtificialNose</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+		</addedPartProps>
+	</HediffDef>
+
+</Defs>

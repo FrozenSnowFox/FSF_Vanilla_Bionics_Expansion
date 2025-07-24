@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	
+  	<!-- Prosthetic Eye Texture -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/FleshTypeDef[defName = "Normal"]/hediffWounds</xpath>
+				<value>
+					<li>
+						<hediff>FSFProstheticEye</hediff>
+						<wounds>
+							<li>
+								<textureSouth>Things/Pawn/Wounds/BionicEye_south</textureSouth>
+								<textureNorth>Things/Pawn/Wounds/BionicEye_south</textureNorth>
+								<textureEast>Things/Pawn/Wounds/BionicEye_east</textureEast>
+								<textureWest>Things/Pawn/Wounds/BionicEye_east</textureWest>
+								<flipWest>true</flipWest>
+								<flipOnWoundAnchorTag>LeftEye</flipOnWoundAnchorTag>
+								<flipOnRotation>South</flipOnRotation>
+								<scale>0.85</scale>
+							</li>
+						</wounds>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

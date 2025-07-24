@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<!-- Vanilla Archotech -->
+	
+	<Operation Class="PatchOperationFindMod">
+		
+    	<mods>
+        	<li>Elite Bionics Framework</li>
+    	</mods>
+		
+    	<match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ArchotechEye"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ArchotechArm"]/comps</xpath>
+				<value>
+        			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            			<scaleAdjustment>0.5</scaleAdjustment>
+        			</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "ArchotechLeg"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+        </operations>
+    	</match>
+		
+	</Operation>
+	
+	<!-- FSF Archotech -->
+	
+	<Operation Class="PatchOperationFindMod">
+		
+    	<mods>
+        	<li>Elite Bionics Framework</li>
+    	</mods>
+		
+    	<match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechEar"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechJaw"]/comps</xpath>
+				<value>
+        			<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            			<scaleAdjustment>0.5</scaleAdjustment>
+        			</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechSpine"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechHeart"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechLung"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechKidney"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechLiver"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/HediffDef[defName = "FSFArchotechStomach"]</xpath>
+				<value>
+					<comps>
+        				<li Class="EBF.Hediffs.HediffCompProperties_MaxHPAdjust">
+            				<scaleAdjustment>0.5</scaleAdjustment>
+        				</li>
+    				</comps>
+				</value>
+			</li>
+			
+        </operations>
+    	</match>
+	
+	</Operation>
+	
+</Patch>

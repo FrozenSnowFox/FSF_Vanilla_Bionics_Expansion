@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	
+	<!-- Bionic Jaw -->
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicJaw</defName>
+		<label>bionic jaw</label>
+		<labelNoun>a bionic jaw</labelNoun>
+		<description>An installed bionic jaw.</description>
+		<descriptionHyperlinks><ThingDef>FSFBionicJaw</ThingDef></descriptionHyperlinks>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>teeth</label>
+						<capacities>
+							<li>Bite</li>
+						</capacities>
+						<power>9.2</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+						<chanceFactor>0.07</chanceFactor>
+					</li>
+				</tools>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>FSFBionicJaw</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicJaw</defName>
+		<label>bionic jaw</label>
+		<description>An advanced artificial jaw. Silenced mini-servos give great strength, while a lattice-dust healing system allows it to recover from damage. It is better than a biological jaw in almost every way.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFBionicJaw</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<statBases>
+			<Mass>1.5</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFBionicJaw</defName>
+		<label>install bionic jaw</label>
+		<description>Install a bionic jaw.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicJaw</ThingDef>
+			<HediffDef>FSFBionicJaw</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic jaw.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFBionicJaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFBionicJaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Jaw</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFBionicJaw</addsHediff>
+	</RecipeDef>
+	
+	<!-- Bionic Lung -->
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicLung</defName>
+		<label>bionic lung</label>
+		<labelNoun>a bionic lung</labelNoun>
+		<description>An installed bionic lung.</description>
+		<descriptionHyperlinks><ThingDef>FSFBionicLung</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFBionicLung</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicLung</defName>
+		<label>bionic lung</label>
+		<description>An advanced artificial lung. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological lung in almost every way.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFBionicLung</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFBionicLung</defName>
+		<label>install bionic lung</label>
+		<description>Install a bionic lung.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicLung</ThingDef>
+			<HediffDef>FSFBionicLung</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic lung.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFBionicLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFBionicLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Lung</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFBionicLung</addsHediff>
+	</RecipeDef>
+	
+	<!-- Bionic Kidney -->
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicKidney</defName>
+		<label>bionic kidney</label>
+		<labelNoun>a bionic kidney</labelNoun>
+		<description>An installed bionic kidney.</description>
+		<descriptionHyperlinks><ThingDef>FSFBionicKidney</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFBionicKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicKidney</defName>
+		<label>bionic kidney</label>
+		<description>An advanced artificial kidney. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological kidney in almost every way.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFBionicKidney</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFBionicKidney</defName>
+		<label>install bionic kidney</label>
+		<description>Install a bionic kidney.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicKidney</ThingDef>
+			<HediffDef>FSFBionicKidney</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic kidney.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFBionicKidney</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFBionicKidney</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Kidney</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFBionicKidney</addsHediff>
+	</RecipeDef>
+	
+	<!-- Bionic Liver -->
+	
+	<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FSFBionicLiver</defName>
+		<label>bionic liver</label>
+		<labelNoun>a bionic liver</labelNoun>
+		<description>An installed bionic liver.</description>
+		<descriptionHyperlinks><ThingDef>FSFBionicLiver</ThingDef></descriptionHyperlinks>
+		<spawnThingOnRemoved>FSFBionicLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.25</partEfficiency>
+			<betterThanNatural>true</betterThanNatural>
+		</addedPartProps>
+	</HediffDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicLiver</defName>
+		<label>bionic liver</label>
+		<description>An advanced artificial liver. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological liver in almost every way.</description>
+		<descriptionHyperlinks><RecipeDef>InstallFSFBionicLiver</RecipeDef></descriptionHyperlinks>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
+		<statBases>
+			<Mass>2</Mass>
+		</statBases>
+	</ThingDef>
+	
+	<RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+		<defName>InstallFSFBionicLiver</defName>
+		<label>install bionic liver</label>
+		<description>Install a bionic liver.</description>
+		<descriptionHyperlinks>
+			<ThingDef>FSFBionicLiver</ThingDef>
+			<HediffDef>FSFBionicLiver</HediffDef>
+		</descriptionHyperlinks>
+		<jobString>Installing bionic liver.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSFBionicLiver</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>FSFBionicLiver</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Liver</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FSFBionicLiver</addsHediff>
+	</RecipeDef>
+
+</Defs>

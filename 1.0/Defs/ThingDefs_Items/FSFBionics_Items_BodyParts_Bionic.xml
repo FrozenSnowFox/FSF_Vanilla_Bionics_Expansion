@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!-- Bionic Body Parts -->
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicPowerArm</defName>
+		<label>bionic power arm</label>
+		<description>An advanced artificial arm fitted with retractable power claw blades. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. While not as effective for non-combat tasks as a bionic arm the retractable blades make it a powerful weapon.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<BionicArm>1</BionicArm>
+			<PowerClaw>1</PowerClaw>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>38000</WorkToMake>
+			<Mass>6</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicJaw</defName>
+		<label>bionic jaw</label>
+		<description>An advanced artificial jaw. Silenced mini-servos give great strength, while a lattice-dust healing system allows it to recover from damage. It is better than a biological jaw in almost every way.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicLung</defName>
+		<label>bionic lung</label>
+		<description>An advanced artificial lung. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological lung in almost every way.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>15</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicKidney</defName>
+		<label>bionic kidney</label>
+		<description>An advanced artificial kidney. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological kidney in almost every way.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="BodyPartBionicBase">
+		<defName>FSFBionicLiver</defName>
+		<label>bionic liver</label>
+		<description>An advanced artificial liver. It has synthetic muscle fibers and a lattice-dust healing system. It is better than a biological liver in almost every way.</description>
+		<techLevel>Spacer</techLevel>
+		<costList>
+			<Plasteel>10</Plasteel>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+</Defs>

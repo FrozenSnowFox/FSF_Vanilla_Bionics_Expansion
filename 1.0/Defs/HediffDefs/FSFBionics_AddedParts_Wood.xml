@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <HediffDef Name="FSFAddedBodyPartWood" Abstract="True">
+    <hediffClass>Hediff_AddedPart</hediffClass>
+	<defaultLabelColor>(229,152,102)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+
+	<!-- Vanilla Wood Body Parts -->
+	
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>PegLeg</defName>
+    <label>peg leg</label>
+    <labelNoun>a peg leg</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.60</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+  <HediffDef ParentName="FSFAddedBodyPartWood">
+    <defName>WoodenFoot</defName>
+    <label>wooden foot</label>
+    <labelNoun>a wooden foot</labelNoun>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>0.80</partEfficiency>
+      <betterThanNatural>false</betterThanNatural>
+    </addedPartProps>
+    <spawnThingOnRemoved>WoodLog</spawnThingOnRemoved>
+  </HediffDef>
+
+</Defs>
