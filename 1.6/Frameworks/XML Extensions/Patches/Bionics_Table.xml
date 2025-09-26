@@ -56,12 +56,18 @@
 				
 			<!-- Remove Biotech Bionics reciperUsers -->
 			
-			<li MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationRemove">
+			<li MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationConditional">		
 				<xpath>/Defs/ThingDef[defName = "DetoxifierLung"]/recipeMaker/recipeUsers</xpath>
+				<match Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "DetoxifierLung"]/recipeMaker/recipeUsers</xpath>
+				</match>
 			</li>
-				
-			<li MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationRemove">
+			
+			<li MayRequire="Ludeon.RimWorld.Biotech" Class="PatchOperationConditional">		
 				<xpath>/Defs/ThingDef[defName = "DetoxifierKidney"]/recipeMaker/recipeUsers</xpath>
+				<match Class="PatchOperationRemove">
+					<xpath>/Defs/ThingDef[defName = "DetoxifierKidney"]/recipeMaker/recipeUsers</xpath>
+				</match>
 			</li>
 				
 			</operations>
