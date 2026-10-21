@@ -124,9 +124,12 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
+			<li>Clavicle</li>
 			<li>Femur</li>
+			<li>Pelvis</li>
 			<li>Humerus</li>
 			<li>Radius</li>
+			<li>Sternum</li>
 			<li>Tibia</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>FSFArtificialBone</addsHediff>
